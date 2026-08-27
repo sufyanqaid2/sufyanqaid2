@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" width="900" height="260" role="img" aria-label="GitHub statistics for sufyanqaid2">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#060A14"/><stop offset="55%" stop-color="#0B1226"/><stop offset="100%" stop-color="#101A36"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="-0.6" y1="0" x2="1.6" y2="0" spreadMethod="reflect">
+      <stop offset="0%" stop-color="#22D3EE"/><stop offset="33%" stop-color="#818CF8"/>
+      <stop offset="66%" stop-color="#C084FC"/><stop offset="100%" stop-color="#22D3EE"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-0.45 0; 0.45 0; -0.45 0" dur="9s" repeatCount="indefinite"/>
+    </linearGradient>
+    <clipPath id="round"><rect width="900" height="260" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#round)">
+    <rect width="900" height="260" fill="url(#bg)"/>
+    <rect x="0" y="0" width="900" height="4" fill="url(#accent)"/>
+
+    <text x="52" y="58" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="11.5" letter-spacing="2.4" fill="#64748B">OVERVIEW</text>
+    <line x1="52" y1="74" x2="376" y2="74" stroke="#1E293B" stroke-width="1"/>
+    <text x="52" y="118" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="14.5" fill="#94A3B8">Public repositories</text><text x="376" y="118" text-anchor="end" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="15" font-weight="600" fill="#E2E8F0">9</text>
+    <text x="52" y="150" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="14.5" fill="#94A3B8">Total commits</text><text x="376" y="150" text-anchor="end" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="15" font-weight="600" fill="#E2E8F0">37</text>
+    <text x="52" y="182" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="14.5" fill="#94A3B8">Stars earned</text><text x="376" y="182" text-anchor="end" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="15" font-weight="600" fill="#E2E8F0">0</text>
+    <text x="52" y="214" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="14.5" fill="#94A3B8">Followers</text><text x="376" y="214" text-anchor="end" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="15" font-weight="600" fill="#E2E8F0">1</text>
+
+    <text x="500" y="58" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="11.5" letter-spacing="2.4" fill="#64748B">MOST USED LANGUAGES</text>
+    <line x1="500" y1="74" x2="856" y2="74" stroke="#1E293B" stroke-width="1"/>
+    <rect x="500" y="104" width="356" height="10" rx="5" fill="#111C33"/>
+    <rect x="500.0" y="104" width="275.2" height="10" rx="5" fill="#DA5B0B"/>
+    <rect x="775.2" y="104" width="29.6" height="10" fill="#f1e05a"/>
+    <rect x="804.8" y="104" width="26.3" height="10" fill="#e34c26"/>
+    <rect x="831.1" y="104" width="8.0" height="10" fill="#336790"/>
+    <rect x="839.1" y="104" width="7.8" height="10" fill="#b07219"/>
+    <rect x="847.0" y="104" width="7.4" height="10" fill="#563d7c"/>
+    <circle cx="505" cy="142" r="5" fill="#DA5B0B"/><text x="518" y="146" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" fill="#94A3B8">Jupyter Not…</text><text x="660" y="146" text-anchor="end" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="13" fill="#E2E8F0">77.3%</text>
+    <circle cx="685" cy="142" r="5" fill="#f1e05a"/><text x="698" y="146" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" fill="#94A3B8">JavaScript</text><text x="840" y="146" text-anchor="end" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="13" fill="#E2E8F0">8.3%</text>
+    <circle cx="505" cy="170" r="5" fill="#e34c26"/><text x="518" y="174" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" fill="#94A3B8">HTML</text><text x="660" y="174" text-anchor="end" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="13" fill="#E2E8F0">7.4%</text>
+    <circle cx="685" cy="170" r="5" fill="#336790"/><text x="698" y="174" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" fill="#94A3B8">PLpgSQL</text><text x="840" y="174" text-anchor="end" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="13" fill="#E2E8F0">2.2%</text>
+    <circle cx="505" cy="198" r="5" fill="#b07219"/><text x="518" y="202" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" fill="#94A3B8">Java</text><text x="660" y="202" text-anchor="end" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="13" fill="#E2E8F0">2.2%</text>
+    <circle cx="685" cy="198" r="5" fill="#563d7c"/><text x="698" y="202" font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="13.5" fill="#94A3B8">CSS</text><text x="840" y="202" text-anchor="end" font-family="ui-monospace,'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="13" fill="#E2E8F0">2.1%</text>
+
+    <line x1="438" y1="44" x2="438" y2="216" stroke="#1E293B" stroke-width="1"/>
+    <rect x="0.5" y="0.5" width="899" height="259" rx="16" fill="none" stroke="#1E293B" stroke-width="1"/>
+  </g>
+</svg>
