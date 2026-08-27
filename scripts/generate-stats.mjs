@@ -32,12 +32,18 @@ repos = repos.filter(r => !r.fork && !r.archived);
 let stars = 0;
 for (const r of repos) stars += r.stargazers_count;
 
-// aggregate language bytes
+// aggregate language usage, normalised per repository
 const bytes = {};
 for (const r of repos) {
   try {
     const { data } = await api(`/repos/${USER}/${r.name}/languages`);
-    for (const [k, v] of Object.entries(data)) bytes[k] = (bytes[k] || 0) + v;
+    const tot = Object.values(data).reduce((a, b) => a + b, 0);
+    if (!tot) continue;
+    // each repository contributes equally, so one large file cannot skew the picture
+    for (const [raw, v] of Object.entries(data)) {
+      const k = raw === 'Jupyter Notebook' ? 'Python' : raw;
+      bytes[k] = (bytes[k] || 0) + v / tot;
+    }
   } catch {}
 }
 
