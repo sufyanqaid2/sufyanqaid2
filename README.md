@@ -97,12 +97,8 @@ experience in machine learning, data analysis, embedded systems, and database de
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=sufyanqaid2&show_icons=true&hide_border=true&bg_color=00000000&title_color=22D3EE&text_color=94A3B8&icon_color=818CF8&hide=issues&rank_icon=github">
-  <img src="https://github-readme-stats.vercel.app/api?username=sufyanqaid2&show_icons=true&hide_border=true&bg_color=00000000&title_color=4F46E5&text_color=475569&icon_color=7C3AED&hide=issues&rank_icon=github" height="160" alt="GitHub stats">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=sufyanqaid2&layout=compact&hide_border=true&bg_color=00000000&title_color=22D3EE&text_color=94A3B8&langs_count=6">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sufyanqaid2&layout=compact&hide_border=true&bg_color=00000000&title_color=4F46E5&text_color=475569&langs_count=6" height="160" alt="Top languages">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/stats-dark.svg">
+  <img src="./assets/stats-light.svg" alt="GitHub statistics" width="100%">
 </picture>
 
 <br><br>
